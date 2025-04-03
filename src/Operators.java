@@ -1,5 +1,7 @@
+import java.sql.SQLOutput;
+
 public class Operators {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         int valor = 5; // Atribuição simples
 
         valor += 15; // Adicionando ao valor anterior
@@ -20,8 +22,17 @@ public class Operators {
 
         if (teste1) {
             System.out.println("Ok");
-        } else if (!teste2){
+        } else if (!teste2) {
             System.out.println("Nope");
+        }
+
+        String text1 = "123";
+        String text2 = "123";
+
+        if (text1.equals("123")) {
+            System.out.println("Acesso autorizado!");
+        } else {
+            System.out.println("Vá para casa!");
         }
     }
 }
