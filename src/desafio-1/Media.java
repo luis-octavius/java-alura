@@ -24,6 +24,5 @@ public class Media {
         } else {
             System.out.println(notPassed + ": " + nãoPassou);
         }
-
     }
 }
