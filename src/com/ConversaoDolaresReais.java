@@ -1,3 +1,4 @@
+package com;
 public class ConversaoDolaresReais {
     public static void main(String[] args) {
         double precoProduto = 10.99;
