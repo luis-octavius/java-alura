@@ -1,6 +1,9 @@
 import java.util.Scanner;
 import com.Student;
 import com.Livro;
+import com.tabuada.Tabuada;
+import com.tabuada.TabuadaMultiplicacao;
+import com.calculadora.CalculadoraSalaRetangular;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,9 +15,21 @@ public class Main {
 //
 //        System.out.println("Media: " + student.calculateMedia());
 
-        Livro livro = new Livro();
-        livro.setTitle("Thus Spoke Zarathustra");
-        livro.setAuthor("Nietzsche");
-        System.out.println(livro.getDetails());
+//        Livro livro = new Livro();
+//        livro.setTitle("Thus Spoke Zarathustra");
+//        livro.setAuthor("Nietzsche");
+//        System.out.println(livro.getDetails());
+
+//        Tabuada tabuada = new TabuadaMultiplicacao(1);
+//        tabuada.mostrarTabuada();
+//
+//        Tabuada tabuada2 = new TabuadaMultiplicacao(2);
+//        tabuada2.mostrarTabuada();
+
+//        CalculadoraSalaRetangular calc = new CalculadoraSalaRetangular();
+//        calc.calcularArea(2, 4);
+//        calc.calcularPerimetro(2, 4);
+
+
     }
 }
