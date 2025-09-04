@@ -6,7 +6,7 @@ import com.google.gson.GsonBuilder;
 
 public class MainPessoa {
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("Luis", 30, "Seropédica");
+        Pessoa pessoa = new Pessoa("Luis", 25, "Zegovia");
         Gson gson = new GsonBuilder()
                 .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
                // .setLenient() To ignore fields not filled
